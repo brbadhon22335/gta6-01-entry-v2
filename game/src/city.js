@@ -85,13 +85,17 @@ export function buildCity(random) {
   }
 
   // Lou's Diner and Rico's Hideout get their own signed buildings.
+  // Both sit beside the road, never on it: the diner fronts avenue 400
+  // from the east, the hideout sits south-east of the avenue 2200 /
+  // street 1900 corner, so the roads stay drivable and the mission
+  // targets (the diner door, the hideout door) stay reachable.
   buildings.push({
-    x: PLACES.diner.x - 90, y: PLACES.diner.y - 55, w: 180, h: 110,
+    x: PLACES.diner.x + 70, y: PLACES.diner.y - 55, w: 180, h: 110,
     color: '#4a2b3d', roof: '#6b3a52',
     sign: { text: "LOU'S DINER", color: PALETTE.neonPink }, tall: false,
   });
   buildings.push({
-    x: PLACES.hideout.x - 80, y: PLACES.hideout.y - 50, w: 160, h: 100,
+    x: PLACES.hideout.x + 130, y: PLACES.hideout.y + 100, w: 160, h: 100,
     color: '#2b3d4a', roof: '#3d5a68',
     sign: { text: 'HIDEOUT', color: PALETTE.neonCyan }, tall: false,
   });

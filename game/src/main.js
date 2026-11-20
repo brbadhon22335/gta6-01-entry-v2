@@ -156,7 +156,10 @@ function tick() {
     return;
   }
   if (screen === SCREEN_PAUSED) {
-    if (keys.pause || keys.confirm) screen = SCREEN_PLAY;
+    if (keys.pause || keys.confirm) {
+      screen = SCREEN_PLAY;
+      announce('Playing.');
+    }
     input.clearActions();
     return;
   }

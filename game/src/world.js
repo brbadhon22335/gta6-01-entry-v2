@@ -123,7 +123,7 @@ export function createWorld(seed) {
     state.justCompleted = null;
     state.shake = 0;
     state.player.x = PLACES.diner.x;
-    state.player.y = PLACES.diner.y + 140;
+    state.player.y = PLACES.diner.y + 190;
     state.player.angle = -Math.PI / 2;
     state.player.speed = 0;
     state.player.onFoot = true;
