@@ -25,7 +25,7 @@ Controls: WASD move / drive, E steal car, F punch, mouse aim and click to shoot,
 
 ## Screenshots
 
-The cover shows a three-star police chase on the Strip; the others show driving, the title screen over the live city, and the final "You own the Strip" screen. They are real renders of the game's own code, staged with `?shot=chase|drive|start|end`.
+The cover shows a four-star police chase on the Strip; the others show driving, the title screen over the live city, and the final "You own the Strip" screen. They are real renders of the game's own code, staged with `?shot=chase|drive|start|end`.
 
 ---
 
